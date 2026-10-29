@@ -1,6 +1,6 @@
 # Registro de decisiones
 
-| Fecha | Decisión | Alternativas | Justificación | Autor |
-|---|---|---|---|---|
-| | Tecnología del prototipo (HTML/CSS/JS vs Figma) | | | |
-
+| N.º | Decisión | Motivo | Alternativa descartada |
+|---|---|---|---|
+| D1 | Técnica: <código HTML / Figma clic a clic> y fidelidad <media> | <por qué responde al riesgo del caso> | |
+| D2 | Profundidad: prototipo <vertical/horizontal> | | |

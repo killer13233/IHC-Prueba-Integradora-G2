@@ -1,27 +1,30 @@
-# IHC – Prueba Integradora (Grupo 2)
+# <Caso> · Prueba Práctica Integradora IHC
+
+**Tarjeta:** IHC-0_ · **Variante:** B · Pagos académicos · **Paralelo:** B
 
 ## Integrantes y roles
 | Integrante | Usuario GitHub | Rol |
 |---|---|---|
-| Martín | @usuario-martin | Pendiente de completar |
-| David | @usuario-david | Pendiente de completar |
-| Sheyla | @usuario-sheyla | Pendiente de completar |
+| Martín Palacios | @killer13233 | Diagnóstico (touchpoints), requisitos, sitemap, navegación |
+| David Pérez | @ | Repositorio, Issues, user flow, componentes, validación y estados |
+| Sheyla Pacha | @ | Curva emocional, wireframes, trazabilidad, decisiones, v2 |
 
 ## Caso
-_Completar cuando llegue la tarjeta del docente._
-
-## Estructura
-- `docs/` documentación (diagnóstico, requisitos, componentes, trazabilidad, decisiones, defensa)
-- `diagramas/` sitemap, user flow, curvas antes/después
-- `wireframes/` 4 wireframes
-- `prototipo/v1`, `prototipo/v2` prototipo HTML/CSS/JS
-- `pruebas/` sesión de prueba con usuario
-- `evidencias/` capturas
+| Campo | Valor |
+|---|---|
+| Persona usuaria | |
+| Tarea crítica | |
+| Restricción obligatoria | |
+| Fallo adicional | |
 
 ## Cómo ejecutar
-Abrir `prototipo/v2/inicio.html` en el navegador (no requiere instalación).
+Abrir `prototipo/v1/index.html` (o `prototipo/v2/index.html`) con doble clic.
 
-## Enlaces de entrega
-- Issues: _pendiente_
-- PR: _pendiente_
-- Commit final: _pendiente_
+## Instrucciones de prueba
+<Tarea que se le da al participante>
+
+## Issues y Pull Requests
+
+## Decisiones (ver docs/decisiones.md)
+
+## Commit final

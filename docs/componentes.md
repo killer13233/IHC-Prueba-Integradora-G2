@@ -1,7 +1,4 @@
 # Componentes (Atomic Design)
 
-## Átomos
-## Moléculas
-## Organismos
-## Plantillas / Páginas
-
+| Componente | Nivel (átomo/molécula/organismo) | Estados | Requisito | Dónde aparece |
+|---|---|---|---|---|
