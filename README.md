@@ -36,3 +36,12 @@ Abrir `prototipo/v1/index.html` (o `prototipo/v2/index.html`) con doble clic.
 | Martín Palacios | [@killer13233](https://github.com/killer13233) | Diagnóstico, arquitectura, conducción de prueba |
 | David Pérez | [@DavidPe1307](https://github.com/DavidPe1307) | Flujo, componentes, formulario de pago, registro de prueba |
 | Sheyla Pacha | [@Zzzheyla](https://github.com/Zzzheyla) | Wireframes, trazabilidad, confirmación, defensa |
+
+## Casos asignados (Variante B · Pagos académicos)
+
+| | IHC-03 | IHC-04 |
+|---|---|---|
+| Persona usuaria | Estudiante becado con presupuesto limitado | Representante que paga por otra persona |
+| Tarea crítica | Consultar y pagar matrícula | Pagar y obtener comprobante |
+| Restricción | Costo total visible antes de aceptar | No mostrar datos bancarios completos |
+| Fallo adicional | Aparece comisión inesperada al final | El botón permite dos pagos consecutivos |
