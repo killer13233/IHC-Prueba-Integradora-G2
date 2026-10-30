@@ -1,13 +1,20 @@
-:root{--color-primario:#1a56db;--color-error:#c81e1e;--color-exito:#057a55;--fondo:#f9fafb;--texto:#111827}
+:root{--fondo:#f5f6f8;--tinta:#1d2733;--borde:#c9d0d9;--acento:#1f5fbf;--error:#b3261e;--ok:#1b6e3c}
 *{box-sizing:border-box}
-body{font-family:system-ui,sans-serif;background:var(--fondo);color:var(--texto);margin:0;padding:1rem}
-main{max-width:480px;margin:0 auto}
-a,button,input,select,textarea{font:inherit}
-button,.btn{background:var(--color-primario);color:#fff;border:0;border-radius:6px;padding:.6rem 1rem;cursor:pointer;text-decoration:none;display:inline-block}
-button.secundario{background:#fff;color:var(--color-primario);border:1px solid var(--color-primario)}
-button:disabled{opacity:.5;cursor:not-allowed}
-:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
-label{display:block;margin-top:1rem;font-weight:600}
-input{width:100%;padding:.5rem;border:1px solid #9ca3af;border-radius:6px}
-.error{color:var(--color-error);font-size:.9rem}
-.exito{color:var(--color-exito)}
+body{margin:0;font:16px/1.5 system-ui,Segoe UI,Arial,sans-serif;background:var(--fondo);color:var(--tinta)}
+main{max-width:34rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.5rem;margin:0 0 1rem}
+.panel{background:#fff;border:1px solid var(--borde);border-radius:8px;padding:1rem;margin-bottom:1rem}
+.fila{display:flex;justify-content:space-between;padding:.25rem 0}
+.total{font-weight:700;border-top:1px solid var(--borde);margin-top:.5rem;padding-top:.5rem}
+label{display:block;font-weight:600;margin-top:1rem}
+input{width:100%;padding:.6rem;border:1px solid var(--borde);border-radius:6px;font:inherit;margin-top:.25rem}
+input[aria-invalid="true"]{border-color:var(--error)}
+.msg{color:var(--error);font-size:.9rem;min-height:1.2rem;margin:.25rem 0 0}
+.aviso{border-left:4px solid var(--error);background:#fdecea;padding:.75rem;margin-bottom:1rem}
+.aviso.ok{border-color:var(--ok);background:#e7f4ec}
+.acciones{display:flex;gap:.75rem;margin-top:1.5rem}
+button,.btn{font:inherit;padding:.7rem 1.2rem;border-radius:6px;border:1px solid var(--acento);cursor:pointer;text-decoration:none}
+.primario{background:var(--acento);color:#fff}
+.secundario{background:#fff;color:var(--acento)}
+button:disabled{opacity:.6;cursor:not-allowed}
+:focus-visible{outline:3px solid #ffb000;outline-offset:2px}
