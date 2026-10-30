@@ -1,15 +1,25 @@
-## Qué incluye este PR
-<!-- Archivos y fase (F1–F5) -->
+## Qué agrega
+<1–3 líneas>
 
+## Fase
+F_
+
+## Issue
 Closes #
 
-## Checklist
-- [ ] Solo edité mis archivos
-- [ ] Commit con prefijo de fase (ej. `F3: ...`)
-- [ ] Probado en navegador (si aplica)
+## Requisito o heurística que atiende
+R_ / H_
 
-## Revisión (la completa el revisor)
-- **Revisé:**
-- **Encontré:**
-- **Sugerencia:**
-- **Decisión:** Aprobado / Cambios solicitados
+## Cómo probarlo
+1.
+
+## Lista de revisión
+- [ ] Solo toqué mis archivos
+- [ ] Están en la carpeta correcta
+- [ ] Nombres iguales en sitemap, menú, wireframes y trazabilidad
+- [ ] Imágenes visibles en la vista previa
+- [ ] Participantes anotados como P1, P2 (sin nombres reales)
+- [ ] Probé el prototipo con teclado (Tab, Shift+Tab, Enter, Esc)
+
+## Revisión cruzada
+Revisor: @

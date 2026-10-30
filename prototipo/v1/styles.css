@@ -5,6 +5,7 @@ main{max-width:480px;margin:0 auto}
 a,button,input,select,textarea{font:inherit}
 button,.btn{background:var(--color-primario);color:#fff;border:0;border-radius:6px;padding:.6rem 1rem;cursor:pointer;text-decoration:none;display:inline-block}
 button.secundario{background:#fff;color:var(--color-primario);border:1px solid var(--color-primario)}
+button:disabled{opacity:.5;cursor:not-allowed}
 :focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
 label{display:block;margin-top:1rem;font-weight:600}
 input{width:100%;padding:.5rem;border:1px solid #9ca3af;border-radius:6px}
