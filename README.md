@@ -53,8 +53,8 @@ Evidencias antes/después: [`evidencias/`](evidencias/) · Curvas: [`diagramas/c
 | F5 Defensa | [`docs/defensa.md`](docs/defensa.md) |
 
 ## Issues y Pull Requests
-- Issues: [#3](../../issues/3) · [#5](../../issues/5) · [#6](../../issues/6) — [ver todos](../../issues?q=is%3Aissue)
-- Pull Requests: [#1](../../pull/1) · [#2](../../pull/2) · [#4](../../pull/4) · [#7](../../pull/7) — [ver todos](../../pulls?q=is%3Apr)
+- Issues: [#5](../../issues/5) · [#6](../../issues/6) · [#9](../../issues/9) — [ver todos](../../issues?q=is%3Aissue)
+- Pull Requests: [#1](../../pull/1) · [#2](../../pull/2) · [#4](../../pull/4) · [#7](../../pull/7) · [#8](../../pull/8) — [ver todos](../../pulls?q=is%3Apr)
 
 ## Decisiones
 Ver [`docs/decisiones.md`](docs/decisiones.md): prototipo en HTML ejecutable (D1), un solo prototipo para los dos casos con `?caso=` (D3), fallo conservado en v1 (D4), foco y teclado (D5) y correcciones de v2 (D11–D13).

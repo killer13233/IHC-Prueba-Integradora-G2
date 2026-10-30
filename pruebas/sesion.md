@@ -27,8 +27,8 @@ Las respuestas se dieron al final de la sesión y no se separaron por tarea.
 | Caso | Hallazgo observado | Heurística | Severidad | Issue |
 |---|---|---|---|---|
 | IHC-03 | El participante no percibió la comisión ni el cambio del total; necesitó que se la señalaran. Confirma que el costo total no es visible antes de aceptar | H1 (visibilidad del estado), H5 (prevención de errores) | 4 | #5 |
-| IHC-03 | No supo para qué era cada campo del Formulario de pago ni cómo llenarlo | H5 (prevención de errores) | 3 | #3 |
-| Ambos | Pidió ver los pasos del proceso, quién paga y a qué entidad | H1 (visibilidad del estado) | 2 | #3 |
+| IHC-03 | No supo para qué era cada campo del Formulario de pago ni cómo llenarlo | H5 (prevención de errores) | 3 | — (observado en la prueba) |
+| Ambos | Pidió ver los pasos del proceso, quién paga y a qué entidad | H1 (visibilidad del estado) | 2 | — (sugerencia de P1) |
 
 Nota: en IHC-04 el doble pago **no** se observó (contador = 1); el hallazgo #6 se mantiene como estimación del equipo.
 
@@ -36,10 +36,10 @@ Nota: en IHC-04 el doble pago **no** se observó (contador = 1); el hallazgo #6 
 | Caso | Qué cambió | Archivo | Origen |
 |---|---|---|---|
 | IHC-03 | La comisión de $2.50 y el total $92.50 se ven desde Inicio; el total ya no cambia al pagar | `prototipo/v2/inicio.html`, `prototipo/v2/pago.html` | Prueba (P1 no notó la comisión) · #5 |
-| IHC-03 | Cada campo tiene un texto de ayuda («Los 16 números que están en el frente de su tarjeta…», «Aquí le enviaremos el comprobante…») | `prototipo/v2/pago.html` | Prueba (P1 no sabía cómo llenar los campos) · #3 |
+| IHC-03 | Cada campo tiene un texto de ayuda («Los 16 números que están en el frente de su tarjeta…», «Aquí le enviaremos el comprobante…») | `prototipo/v2/pago.html` | Prueba (P1 no sabía cómo llenar los campos) |
 | Ambos | Indicador de pasos (1. Revisar · 2. Pagar · 3. Comprobante) y recuadro con quién paga y a qué entidad | `prototipo/v2/*.html`, `prototipo/v2/styles.css` | Prueba (sugerencia de P1) |
 | IHC-04 | El botón Pagar se bloquea al primer clic y el aviso dice «No cierres esta página ni vuelvas a pulsar Pagar» | `prototipo/v2/pago.html` | Diagnóstico · #6 |
-| Ambos | El rechazo del banco dice «No se hizo ningún cobro» y conserva los datos | `prototipo/v2/pago.html` | Diagnóstico · #3 |
+| Ambos | El rechazo del banco dice «No se hizo ningún cobro» y conserva los datos | `prototipo/v2/pago.html` | Diagnóstico · #9 |
 
 Capturas: `evidencias/v1-*` (antes) y `evidencias/v2-*` (después).
 
