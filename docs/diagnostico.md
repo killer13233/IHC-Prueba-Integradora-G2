@@ -43,11 +43,11 @@
 | N.º | Problema | Heurística | Severidad | Issue |
 |---|---|---|---|---|
 | IHC-03 · H1 | La comisión inesperada aparece recién al final y el total pasa de $90.00 a $92.50, después de que el estudiante ya decidió pagar | H1 (visibilidad del estado), H5 (prevención de errores) | 4 (catastrófico): rompe la restricción de ver el costo total antes de aceptar | #5 |
-| IHC-03 · H2 | El mensaje de error de pago es genérico: no dice qué pasó ni qué corregir | H9 (recuperación de errores) | 3 (mayor): un estudiante con presupuesto limitado no sabe si le cobraron | #7 |
+| IHC-03 · H2 | El mensaje de error de pago es genérico: no dice qué pasó ni qué corregir | H9 (recuperación de errores) | 3 (mayor): un estudiante con presupuesto limitado no sabe si le cobraron | #3 |
 | IHC-03 · H3 | El comprobante no deja verificar que el monto pagado es el total aceptado | H1 (visibilidad del estado) | 3 (mayor): genera desconfianza en el cobro | — |
 | IHC-04 · H1 | El botón Pagar permite dos pagos consecutivos | H5 (prevención de errores) | 4 (catastrófico): doble cobro a nombre de otra persona | #6 |
 | IHC-04 · H2 | El aviso «Procesando el pago…» no le dice que su clic ya se registró, y con el botón activo el representante vuelve a pulsar | H1 (visibilidad del estado) | 3 (mayor): empuja al doble pago | — |
-| IHC-04 · H3 | El método de pago no se reconoce sin ver datos bancarios completos | H5 (prevención de errores) | 3 (mayor): choca con la restricción de ocultar datos bancarios | — |
+| IHC-04 · H3 | Si el banco rechaza el pago, el mensaje «No se pudo procesar el pago. Inténtalo de nuevo.» no dice si se hizo algún cobro, y el representante no sabe si puede reintentar sin pagar dos veces | H9 (recuperación de errores) | 3 (mayor): agrava el riesgo de doble cobro | #3 |
 
 ## Curva emocional inicial
 ![Curva antes](../diagramas/curva-antes.png)
