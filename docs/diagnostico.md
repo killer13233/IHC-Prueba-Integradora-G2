@@ -6,7 +6,7 @@
 | Persona usuaria | Estudiante con presupuesto limitado | Representante que paga a nombre de Ana Torres |
 | Tarea crítica | Pagar el valor académico en el portal | Pagar $60.00 con su tarjeta en el portal |
 | Restricción obligatoria | Ver el costo total antes de aceptar | No mostrar datos bancarios completos |
-| Fallo adicional | Comisión de $2.50 no anunciada (total pasa de $90.00 a $92.50) | Sin estado de proceso: se puede pagar dos veces |
+| Fallo adicional | Comisión de $2.50 no anunciada (total pasa de $90.00 a $92.50) | El botón Pagar permite dos pagos consecutivos |
 
 ## Touchpoints y curva emocional
 
@@ -29,12 +29,12 @@
 | 3 | Continuar al pago | Pulsa Continuar | 0 | Paso neutro | Conductual | No |
 | 4 | Formulario: tarjeta •••• 4821 | Revisa el método de pago | +1 | Sus datos bancarios no se muestran completos | Reflexivo | No |
 | 5 | Pulsar Pagar | Pulsa Pagar | 0 | Espera respuesta inmediata | Conductual | No |
-| 6 | Sin respuesta: pulsa otra vez | Vuelve a pulsar Pagar | −1 | No hay estado visible | Conductual | **Sí** |
+| 6 | Sin confirmación clara: pulsa otra vez | Vuelve a pulsar Pagar | −1 | El aviso de proceso no impide pulsar de nuevo; el botón sigue activo | Conductual | **Sí** |
 | 7 | Confirmación con doble cobro | Ve dos cobros | −2 | Pagó dos veces; pierde la confianza | Reflexivo | **Sí** |
 
 ## Momentos de verdad
 1. **IHC-03 · Aparece la comisión de $2.50 (touchpoint 5):** la confianza se pierde porque el total cambia de $90.00 a $92.50 después de que el estudiante ya decidió pagar. Mostrar el costo total desde el inicio la habría protegido.
-2. **IHC-04 · Sin respuesta al pulsar Pagar (touchpoint 6):** sin un estado visible el representante duda y repite el pago. Aquí se gana o se pierde la confianza, y de aquí nace el doble cobro.
+2. **IHC-04 · Pulsar Pagar otra vez (touchpoint 6):** el aviso de proceso no le asegura que su clic ya se registró y el botón sigue activo, así que duda y repite el pago. Aquí se gana o se pierde la confianza, y de aquí nace el doble cobro.
 
 (Los touchpoints 7 de ambos casos también son momentos de verdad, porque cierran la experiencia y definen el recuerdo.)
 
@@ -46,7 +46,7 @@
 | IHC-03 · H2 | El mensaje de error de pago es genérico: no dice qué pasó ni qué corregir | H9 (recuperación de errores) | 3 (mayor): un estudiante con presupuesto limitado no sabe si le cobraron | pendiente |
 | IHC-03 · H3 | El comprobante no deja verificar que el monto pagado es el total aceptado | H1 (visibilidad del estado) | 3 (mayor): genera desconfianza en el cobro | pendiente |
 | IHC-04 · H1 | El botón Pagar permite dos pagos consecutivos | H5 (prevención de errores) | 4 (catastrófico): doble cobro a nombre de otra persona | pendiente |
-| IHC-04 · H2 | No hay indicación de que el pago está en proceso, y el representante vuelve a pulsar | H1 (visibilidad del estado) | 3 (mayor): empuja al doble pago | pendiente |
+| IHC-04 · H2 | El aviso «Procesando el pago…» no le dice que su clic ya se registró, y con el botón activo el representante vuelve a pulsar | H1 (visibilidad del estado) | 3 (mayor): empuja al doble pago | pendiente |
 | IHC-04 · H3 | El método de pago no se reconoce sin ver datos bancarios completos | H5 (prevención de errores) | 3 (mayor): choca con la restricción de ocultar datos bancarios | pendiente |
 
 ## Curva emocional inicial
